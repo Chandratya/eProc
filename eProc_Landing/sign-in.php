@@ -3,6 +3,7 @@
 <?php
 include './conn.php'; //summon $conn
 
+  require_once './google-api-php-client/vendor/autoload.php';
 session_start();
 
 $login = true;
@@ -41,7 +42,6 @@ if (isset($_POST['token']))
 }
 ?>
   <?php 
-  require_once './google-api-php-client/src/Google/autoload.php';
   ?>
 <head>
     <meta charset="UTF-8">
@@ -108,7 +108,7 @@ if (isset($_POST['token']))
                      <center>
                      <div class="row">
                        
-                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                        <div class="btn btn-block btn-danger" onclick="window.location='./auth.php'">google</div>
                 </center>
                     <?php if($login==false){ ?>
                     <div class="alert alert-danger">

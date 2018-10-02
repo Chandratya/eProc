@@ -133,10 +133,10 @@
                 <div class="info-container">
                     <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
                         <?php 
-                         if($getUser!=null){
-                         echo $getUser['nama'];
-                         echo " (".$status[$getUser['status']].")";
-                         } 
+                         // if($getUser!=null){
+                         // echo $getUser['nama'];
+                         // echo " (".$status[$getUser['status']].")";
+                         // } 
                          ?>
       </span>
                     </div>
