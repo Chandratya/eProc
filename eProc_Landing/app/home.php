@@ -438,22 +438,25 @@ session_start();
 
           switch ($image_weather) {
               case "Cloudy":
-                  echo "<img src='/eProc_Landing/app/images/cloud.png' style='width:40px;height:40px;'>" . "Cloudy";
+                  echo "<img src='/eProc/eProc_Landing/app/images/cloud.png' style='width:40px;height:40px;'>";
+                  break;
+              case "Mostly Cloudy":
+                  echo "<img src='/eProc/eProc_Landing/app/images/cloud2.png' style='width:40px;height:40px;'>";
                   break;
               case "Partly Cloudy":
-                  echo "<img src='/eProc_Landing/app/images/sun-and-cloud.png' style='width:40px;height:40px;'>";
+                  echo "<img src='/eProc/eProc_Landing/app/images/sun-and-cloud.png' style='width:40px;height:40px;'>";
                   break;
               case "Sunny":
-                  echo "<img src='/eProc_Landing/app/images/sun-sunny-day-weather-symbol.png' style='width:40px;height:40px;'>";
+                  echo "<img src='/eProc/eProc_Landing/app/images/sun-sunny-day-weather-symbol.png' style='width:40px;height:40px;'>";
                   break;
               case "Thunderstorms":
-                  echo "<img src='/eProc_Landing/app/images/storm.png' style='width:40px;height:40px;'>";
+                  echo "<img src='/eProc/eProc_Landing/app/images/storm.png' style='width:40px;height:40px;'>";
                   break;
               case "Rain":
-                  echo "<img src='/eProc_Landing/app/images/rain.png' style='width:40px;height:40px;'>";
+                  echo "<img src='/eProc/eProc_Landing/app/images/rain.png' style='width:40px;height:40px;'>";
                   break;
               case "Windy":
-                  echo "<img src='/eProc_Landing/app/images/wind.png' style='width:40px;height:40px;'>";
+                  echo "<img src='/eProc/eProc_Landing/app/images/wind.png' style='width:40px;height:40px;'>";
                   break; 
               default:
                   echo "-";
